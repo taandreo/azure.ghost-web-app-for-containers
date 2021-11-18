@@ -39,7 +39,7 @@ var appServicePlanName = '${applicationNamePrefix}-asp-${uniqueString(resourceGr
 var logAnalyticsWorkspaceName = '${applicationNamePrefix}-la-${uniqueString(resourceGroup().id)}'
 var applicationInsightsName = '${applicationNamePrefix}-ai-${uniqueString(resourceGroup().id)}'
 var keyVaultName = '${applicationNamePrefix}-kv-${uniqueString(resourceGroup().id)}'
-var storageAccountName = '${applicationNamePrefix}stor${uniqueString(resourceGroup().id)}'
+var storageAccountName = '${applicationNamePrefix}sta'
 
 var mySQLServerName = '${applicationNamePrefix}-mysql-${uniqueString(resourceGroup().id)}'
 var databaseLogin = 'ghost'

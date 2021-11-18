@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "applicationNamePrefix": {
+      "value": "aztaghost"
+    },
+    "appServicePlanSku": {
+      "value": "B1"
+    },
+    "logAnalyticsWorkspaceSku": {
+      "value": "PerGB2018"
+    },
+    "storageAccountSku": {
+      "value": "Standard_LRS"
+    },
+    "mySQLServerSku": {
+      "value": "B_Gen5_1",
+    },
+    "ghostContainerName": {
+      "value": "andrewmatveychuk/ghost-ai:latest"
+    },
+    "containerRegistryUrl": {
+      "value": "https://index.docker.io/v1"
+    },
+    "deploymentConfiguration": {
+      "value": "Web app with Azure Front Door"
+    }
+  }
+}
